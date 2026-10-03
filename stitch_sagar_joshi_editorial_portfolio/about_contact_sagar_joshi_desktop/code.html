@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"error-container":"#ffdad6","outline-variant":"#c6c6cd","inverse-surface":"#2f3131","surface-tint":"#575e70","secondary":"#585f6c","tertiary-fixed":"#e2e2e2","on-tertiary":"#ffffff","outline":"#76777d","tertiary-container":"#1b1b1b","on-tertiary-fixed":"#1b1b1b","on-error-container":"#93000a","surface":"#f9f9f9","on-secondary-fixed-variant":"#404754","on-primary":"#ffffff","primary-fixed-dim":"#c0c6db","on-tertiary-container":"#848484","on-background":"#1a1c1c","on-secondary-container":"#5e6572","surface-bright":"#f9f9f9","surface-container-highest":"#e2e2e2","primary-container":"#141b2b","on-surface":"#1a1c1c","primary":"#000000","surface-container-lowest":"#ffffff","on-secondary-fixed":"#151c27","error":"#ba1a1a","inverse-on-surface":"#f0f1f1","on-error":"#ffffff","surface-container-high":"#e8e8e8","background":"#f9f9f9","secondary-fixed-dim":"#c0c7d6","inverse-primary":"#c0c6db","on-primary-container":"#7d8497","on-primary-fixed-variant":"#404758","tertiary-fixed-dim":"#c6c6c6","tertiary":"#000000","surface-container-low":"#f3f3f4","on-primary-fixed":"#141b2b","secondary-fixed":"#dce2f3","surface-dim":"#dadada","on-surface-variant":"#45464c","secondary-container":"#dce2f3","surface-variant":"#e2e2e2","on-secondary":"#ffffff","surface-container":"#eeeeee","on-tertiary-fixed-variant":"#474747","primary-fixed":"#dce2f7"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"gutter":"1.5rem","space-lg":"1.5rem","gutter-mobile":"1rem","space-2xl":"4rem","margin":"3rem","space-md":"1rem","space-xs":"0.25rem","margin-mobile":"1.25rem","space-sm":"0.5rem","space-xl":"2.5rem"},fontFamily:{"body-md":["Inter"],"display-xl":["Inter"],"label-md":["Inter"],"body-sm":["Inter"],"headline-lg-mobile":["Inter"],"headline-lg":["Inter"],"headline-sm":["Inter"],"display-xl-mobile":["Inter"],"headline-md":["Inter"],"body-lg":["Inter"],"label-sm":["Inter"]},fontSize:{"body-md":["15px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"400"}],"display-xl":["56px",{lineHeight:"64px",letterSpacing:"-0.03em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.04em",fontWeight:"500"}],"body-sm":["13px",{lineHeight:"20px",letterSpacing:"0.01em",fontWeight:"400"}],"headline-lg-mobile":["24px",{lineHeight:"32px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-lg":["32px",{lineHeight:"40px",letterSpacing:"-0.02em",fontWeight:"500"}],"headline-sm":["16px",{lineHeight:"24px",letterSpacing:"0em",fontWeight:"500"}],"display-xl-mobile":["36px",{lineHeight:"44px",letterSpacing:"-0.02em",fontWeight:"600"}],"headline-md":["20px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"500"}],"body-lg":["18px",{lineHeight:"28px",letterSpacing:"-0.01em",fontWeight:"400"}],"label-sm":["11px",{lineHeight:"14px",letterSpacing:"0.05em",fontWeight:"500"}]}}}}</script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 max-w-6xl mx-auto px-6 lg:px-12 flex items-center justify-between"><div class="flex items-center gap-3"><img alt="Brand logo. - Primary color: #161616
+- Font: playfairDisplay
+- Mode: light
+- Roundness: rounded-lg
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1XSxZeJbzopy2Y1dPWjyniBNlIOfKlLSw5wvhHD2fQRKaYhl6hCaW_UvnLWIKo4Pe4V4aqDnLNblv67stiTb5pvAU2YCtQ5o9NHUKZO0OjvlhlUMVp0y47EM5U20KHKgfOP4jg5QgVdK4TK9SxwtIHQVYA8C1m0Y1naR05-ksXjR58j-KR75OkWiSDe8iwRBLltfg_LLSbj5EGHNIZAO0KtoUyxlfxpmnue7_8-D6DPanbS_heHvl9Kdw"/><a class="flex flex-col" data-path="home" href="#"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">Sagar Joshi</span><span class="font-label-sm text-label-sm text-on-surface-variant">Staff Frontend Engineer</span></a></div><nav class="hidden md:flex items-center gap-8" data-active-classes="text-primary font-semibold"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#">Home</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="work" href="#">Work</a><a aria-current="page" class="transition-colors text-primary font-semibold" data-path="about" href="#">About</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#">Contact</a></nav><div class="flex items-center gap-4"><div class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-low"><span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span><span class="font-label-sm text-label-sm text-on-surface-variant">Available for Q3</span></div><a class="px-4 py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-surface-tint hover:text-on-primary transition-colors" data-path="contact" href="#">Get in Touch</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-16rem)]"><div class="max-w-6xl mx-auto px-6 lg:px-12 py-space-xl"><div class="flex flex-col w-full">
+<div class="grid grid-cols-12 gap-gutter items-start">
+<div class="col-span-12 lg:col-span-5 flex flex-col gap-space-xl lg:sticky lg:top-24">
+<div class="flex flex-col gap-space-lg">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-surface-container shadow-md group">
+<img class="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-105" data-alt="Editorial black and white portrait of a thoughtful South Asian male frontend architect in his late twenties wearing a minimal dark wool crewneck sweater. Soft directional studio lighting, architectural concrete backdrop in neutral grey tones, sharp geometric framing, high contrast, clean minimalist Swiss design aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJ-a4opB8z7BHm3RzH2Ts1xwLdKki5pTpgGMVL0GADXf47uVGqpJ_9bjoE6M32rTPO3B-FNxEdLYycd2mq1ZvKvjh7gr6CdQmgXAEszyVFKkvHaYJVyUVs9e8oGuZUtL--4zAbElzp6Nd7NKgnAKBb6Lc8sxtP5cbfoDw_dQeNTJ_TOh4Fb59SuvlVh-Mm_8CNQw6vXZH5Vj20sJmUQQTmFEAHOxBSdgKnfJA7__l0bWrNEM031l0"/>
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md px-4 py-3 rounded-lg shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface">Available for Q3 Senior Roles</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pune, IN</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm">
+<span class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">Introduction</span>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            Senior Frontend Engineer crafting resilient web systems.
+          </h1>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Based in Pune, India with 7+ years of dedicated practice engineering high-throughput web applications, design systems, and resilient micro-frontend architectures at T-Systems and Cognizant.
+          </p>
+</div>
+</div>
+<div class="bg-surface-container-lowest rounded-xl p-space-lg shadow-sm flex flex-col gap-space-md">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Vitals & Meta</span>
+<div class="grid grid-cols-2 gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Base Location</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">Pune, India</span>
+<span class="font-label-sm text-label-sm text-secondary">UTC+5:30 (IST)</span>
+</div>
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Experience</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">7+ Years</span>
+<span class="font-label-sm text-label-sm text-secondary">Production Scale</span>
+</div>
+<div class="flex flex-col gap-1 col-span-2 pt-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Engagement Focus</span>
+<span class="font-body-sm text-body-sm text-on-surface">Staff/Lead Frontend, Scalable UI Infrastructure, Consulting</span>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low rounded-xl p-space-md flex items-center justify-between">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-on-surface text-[20px]">terminal</span>
+<span class="font-label-md text-label-md text-on-surface">Architecture Radar: Active</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-1.5 h-1.5 rounded-full bg-on-surface-variant"></span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">W3C WCAG 2.1 AA</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 lg:col-span-7 flex flex-col gap-space-2xl">
+<section class="flex flex-col gap-space-lg">
+<div class="flex items-end justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Track Record</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Experience</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2017 — Present</span>
+</div>
+<div class="flex flex-col gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-all duration-300 hover:bg-surface-container-low">
+<div class="flex items-baseline justify-between mb-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Senior Frontend Engineer</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2021 — Present</span>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="font-body-sm text-body-sm font-medium text-secondary">T-Systems International</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Enterprise Cloud Platform</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Leading the frontend modernization across multiple global squads. Engineered runtime micro-frontend modules enabling independent cross-team deployments, enforced zero-regression WCAG 2.1 AA accessibility benchmarks, and consolidated fragmented design systems into a unified token-driven engine.
+            </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Micro-frontends</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Design Tokens</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Module Federation</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">WCAG AA</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-all duration-300 hover:bg-surface-container-low">
+<div class="flex items-baseline justify-between mb-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Frontend Software Engineer</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2018 — 2021</span>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="font-body-sm text-body-sm font-medium text-secondary">Cognizant</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Financial & Healthcare Verticals</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Architected secure, reactive client dashboards for Fortune 500 financial and healthcare partners. Overhauled complex state layers with observable streams, lowered first contentful paint by 38%, and authored core shared utility libraries utilized across 14 enterprise projects.
+            </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Angular / React</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">RxJS / NgRx</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Performance Budgets</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Data Grids</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm transition-all duration-300 hover:bg-surface-container-low">
+<div class="flex items-baseline justify-between mb-2">
+<span class="font-headline-sm text-headline-sm text-on-surface">Junior Web Developer</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">2017 — 2018</span>
+</div>
+<div class="flex items-center gap-2 mb-3">
+<span class="font-body-sm text-body-sm font-medium text-secondary">Web Studio</span>
+<span class="text-outline-variant">•</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Boutique Agency</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-4">
+              Crafted semantic, fluid web interfaces with responsive layouts and cross-browser resilience. Spearheaded CSS modularization and micro-interaction toolkits for high-conversion marketing portals.
+            </p>
+<div class="flex flex-wrap gap-2">
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Semantic HTML</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Modern CSS/Sass</span>
+<span class="px-2.5 py-1 rounded bg-surface-container text-on-surface font-label-sm text-label-sm">Vanilla JS</span>
+</div>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-space-lg">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Technical Matrix</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Core Skills</h2>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Engineered for Scale</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-space-md">
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headline-sm text-headline-sm text-on-surface">Frameworks & Runtime</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">layers</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Component lifecycles, SSR/SSG patterns, and hydration strategies.
+              </p>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Angular</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">React</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Vue.js</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Next.js</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headline-sm text-headline-sm text-on-surface">Languages & Base</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">code</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Strict type safety, modern ECMAScript standards, and advanced layout models.
+              </p>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">TypeScript</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">JavaScript (ESNext)</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">HTML5 / Semantic</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Modern CSS / Grid</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headline-sm text-headline-sm text-on-surface">Architecture & Systems</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">account_tree</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Federated applications, state containerization, and tokenized design kits.
+              </p>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Micro-Frontends</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Design Systems</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Redux / NgRx / Pinia</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">CI/CD Automation</span>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between mb-3">
+<span class="font-headline-sm text-headline-sm text-on-surface">Tooling & Testing</span>
+<span class="material-symbols-outlined text-secondary text-[20px]">build_circle</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-4">
+                Optimized bundle delivery, end-to-end regression guarantees, and VCS.
+              </p>
+</div>
+<div class="flex flex-wrap gap-1.5">
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Vite</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Webpack</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Jest / Vitest</span>
+<span class="px-2 py-1 bg-surface-container-low text-on-surface rounded font-label-sm text-label-sm">Git & Workflows</span>
+</div>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Equilibrium</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Beyond Code</h2>
+</div>
+</div>
+<div class="bg-surface-container-lowest p-space-lg rounded-xl shadow-sm flex flex-col md:flex-row gap-space-lg items-start md:items-center justify-between">
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl leading-relaxed">
+            When disconnected from terminal screens and browser profilers, my balance is preserved through high-altitude Himalayan trekking, minimalist street photography, endurance swimming, and cross-country paragliding across western ridgelines.
+          </p>
+<div class="flex flex-wrap md:flex-col gap-2 shrink-0">
+<div class="flex items-center gap-2 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">landscape</span>
+<span>Himalayan Trekking</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">photo_camera</span>
+<span>Photography</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">pool</span>
+<span>Swimming</span>
+</div>
+<div class="flex items-center gap-2 text-on-surface font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">paragliding</span>
+<span>Paragliding</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+<section class="w-full mt-space-2xl pt-space-xl bg-surface-container-lowest rounded-xl p-space-xl shadow-sm flex flex-col gap-space-xl">
+<div class="flex flex-col md:flex-row items-start md:items-end justify-between gap-space-md">
+<div class="flex flex-col gap-2 max-w-2xl">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Direct Engagement</span>
+<h2 class="font-display-xl text-display-xl text-on-surface leading-tight tracking-tight">
+          Let’s discuss your frontend architecture.
+        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          Available for principal engineering challenges, micro-frontend audits, and leadership consultations.
+        </p>
+</div>
+<div class="flex items-center gap-3 shrink-0">
+<a class="flex items-center gap-2 px-4 py-2.5 rounded-lg bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" href="#cv" onclick="alert('Sagar Joshi CV downloading...'); return false;">
+<span class="material-symbols-outlined text-[18px]">download</span>
+<span>Download CV (PDF)</span>
+</a>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-12 gap-space-md items-center">
+<div class="md:col-span-8 bg-surface-container-low p-space-lg rounded-xl flex flex-col sm:flex-row items-start sm:items-center justify-between gap-space-md">
+<div class="flex flex-col gap-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Direct Mailbox</span>
+<span class="font-headline-md text-headline-md text-on-surface font-mono select-all" id="emailText">sagarjoshi.eng@gmail.com</span>
+</div>
+<button class="flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-surface-tint transition-all active:scale-[0.98] shrink-0" id="copyEmailBtn" onclick="navigator.clipboard.writeText('sagarjoshi.eng@gmail.com'); const btn = document.getElementById('copyEmailBtn'); btn.innerHTML = '<span class=\'material-symbols-outlined text-[16px]\'>check</span> Copied'; setTimeout(() => { btn.innerHTML = '<span class=\'material-symbols-outlined text-[16px]\'>content_copy</span> Copy Address'; }, 2000);">
+<span class="material-symbols-outlined text-[16px]">content_copy</span>
+<span>Copy Address</span>
+</button>
+</div>
+<div class="md:col-span-4 flex flex-col gap-2">
+<div class="grid grid-cols-3 gap-2">
+<a class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors gap-1 text-center" href="https://github.com" rel="noopener noreferrer" target="_blank">
+<span class="font-headline-sm text-headline-sm font-medium">GitHub</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Repos & Code</span>
+</a>
+<a class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors gap-1 text-center" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">
+<span class="font-headline-sm text-headline-sm font-medium">LinkedIn</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Network</span>
+</a>
+<a class="flex flex-col items-center justify-center p-3 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface transition-colors gap-1 text-center" href="https://x.com" rel="noopener noreferrer" target="_blank">
+<span class="font-headline-sm text-headline-sm font-medium">Twitter / X</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Dispatches</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+</div></div></main><footer class="w-full bg-surface-container-lowest mt-space-2xl shadow-[0_1px_8px_rgba(0,0,0,0.03)]"><div class="max-w-6xl mx-auto px-6 lg:px-12 py-space-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-space-lg"><div class="flex flex-col gap-1"><div class="flex items-center gap-2"><span class="font-headline-sm text-headline-sm text-on-surface">Sagar Joshi</span><span class="font-label-sm text-label-sm text-on-surface-variant">•</span><span class="font-label-sm text-label-sm text-on-surface-variant">Pune, India (IST / UTC+5:30)</span></div><p class="font-body-sm text-body-sm text-on-surface-variant">© 2024 Sagar Joshi. Built with Swiss minimal principles & precision code.</p></div><div class="flex flex-wrap items-center gap-6 font-body-sm text-body-sm"><a class="text-on-surface-variant hover:text-on-surface transition-colors" href="https://github.com" rel="noopener noreferrer" target="_blank">GitHub</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" href="https://linkedin.com" rel="noopener noreferrer" target="_blank">LinkedIn</a><a class="text-on-surface-variant hover:text-on-surface transition-colors" href="https://x.com" rel="noopener noreferrer" target="_blank">X (Twitter)</a><a class="text-on-surface font-medium hover:text-secondary transition-colors underline decoration-outline-variant underline-offset-4" href="mailto:sagar@example.com">sagar@example.com</a></div></div></footer></body></html>
